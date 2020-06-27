@@ -1,0 +1,6 @@
+info: &data
+  name: "lili"
+  age: 12
+address:
+  <<: *data
+  detail: "测试"
